@@ -9,7 +9,11 @@ public class MorseCode {
 	
 	// 
 	private static final String[] morseLetters = new String[]{ "* _", "_ * * *", "_ * _ *", "_ * *", "*", "* * _ *", "_ _ *", "* * * *", "* *", "* _ _ _", "_ * _", "* _ * *", "_ _", "_ *", "_ _ _", "* _ _ *", "_ _ * _", "* _ *", "* * *", "_", "* * _", "* * * _", "* _ _", "_ * * _", "_ * _ _", "_ _ * *"};
-	
+
+	public static void main (String[] args) {
+		System.out.println(MorseEncrypt("Hello world!"));
+	}
+
 	public static String MorseEncrypt(String str) {
 		return MorseEncryptRecursive(str.trim());
 	}

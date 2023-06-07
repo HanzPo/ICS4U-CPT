@@ -1,3 +1,9 @@
+/* Created by: Hanz Nathan Po
+ * Date created: May 25, 2023
+ * Last updated: June 6, 2023
+ * Description: Program that allows users to specify a file to read plain English from, convert to Morse Code, then write to the same file.
+ */
+
 import java.io.File;
 import java.io.FileWriter;
 import java.util.LinkedList;
@@ -9,8 +15,10 @@ import javax.swing.*;
 public class EnglishToMorse {
 	public static void main(String[] args) {
 		
-		String fileName = "src/English.txt";
-		LinkedList<String> lines = new LinkedList<String>();
+		String fileName;
+		LinkedList<String> lines = new LinkedList<>();
+		
+		fileName = JOptionPane.showInputDialog(null, "Please enter the path of the file you would like to convert:", "src/English.txt");
 		
 		try {
 			Scanner input = new Scanner(new File(fileName));
@@ -35,7 +43,8 @@ public class EnglishToMorse {
 			writer.close();
 		}
 		catch (Exception e) {
-			JOptionPane.showMessageDialog(null, e, "An error occured", JOptionPane.ERROR_MESSAGE);
+			JOptionPane.showMessageDialog(null, e, e.getClass().toString(), JOptionPane.ERROR_MESSAGE);
+			System.exit(1);
 		}
 		
 		System.exit(0);

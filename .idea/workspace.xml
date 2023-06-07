@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2ef04aa9-aa08-4cdf-9568-bd9b15edbbdd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CPT.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.English.txt.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/EnglishToMorse.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/EnglishToMorse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/MorseToEnglish.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/MorseToEnglish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.English.txt.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/English.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/English.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EnglishToMorse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EnglishToMorse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MorseCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MorseCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MorseToEnglish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MorseToEnglish.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QsZiNiB9vljPptwQBWE109VXxy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/hanzp/eclipse-workspace/CPT",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="MorseCode" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../Program Files/Java/jdk-17.0.2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MorseCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ef04aa9-aa08-4cdf-9568-bd9b15edbbdd" name="Changes" comment="" />
+      <created>1686144380774</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686144380774</updated>
+      <workItem from="1686144383583" duration="28000" />
+      <workItem from="1686144421999" duration="1864000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
