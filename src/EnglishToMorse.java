@@ -19,7 +19,11 @@ public class EnglishToMorse {
 		LinkedList<String> lines = new LinkedList<>();
 		
 		fileName = JOptionPane.showInputDialog(null, "Please enter the path of the file you would like to convert:", "src/English.txt");
-		
+
+		if (fileName == null) {
+			System.exit(1);
+		}
+
 		try {
 			Scanner input = new Scanner(new File(fileName));
 			

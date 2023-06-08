@@ -15,15 +15,19 @@ import javax.swing.*;
 public class MorseToEnglish {
 	public static void main(String[] args) {
 		
+		
 		String fileName;
 		LinkedList<String> lines = new LinkedList<>();
 
 		fileName = JOptionPane.showInputDialog(null, "Please enter the path of the file you would like to convert:", "src/English.txt");
 
+		if (fileName == null) {
+			System.exit(1);
+		}
 
 		try {
 			Scanner input = new Scanner(new File(fileName));
-			
+			StringBuilder output = new StringBuilder();
 			String currentLine;
 			
 			while (input.hasNext()) {
@@ -33,6 +37,8 @@ public class MorseToEnglish {
 			}
 			
 			input.close();
+
+
 			
 			FileWriter writer = new FileWriter(fileName, false);
 			
