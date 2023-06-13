@@ -50,7 +50,7 @@
 			 JOptionPane.showMessageDialog(null, builder, "Showing current contents of " + fileName, JOptionPane.PLAIN_MESSAGE);
 			 
 			 writer = new FileWriter(fileName, false); // Creates new FileWriter object and tells it to write to file, overwriting any previous data
-			 output = MorseCode.morseEncrypt(builder.toString()); // Converts contents of the String Builder and stores in output
+			 output = MorseCode.morseEncrypt(builder.toString()); // Converts contents of the StringBuilder and stores in output
 
 			 writer.write(output); // Writes output to file
 			 writer.close(); // Closes FileWriter when no longer in use to prevent issues
